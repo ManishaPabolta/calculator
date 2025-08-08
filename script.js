@@ -20,8 +20,9 @@ document.body.appendChild(stars);
 
 // Calculator container
 const calculator = document.createElement("div");
-calculator.style.width = "750px";
- calculator.style.height = "500px";
+calculator.style.width = "90vw";
+calculator.style.maxWidth = "400px";
+calculator.style.height = "auto"; 
 calculator.style.padding = "20px";
 calculator.style.borderRadius = "20px";
 calculator.style.background = "#111";
