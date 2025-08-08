@@ -2,6 +2,7 @@
 document.body.style.margin = "0";
 document.body.style.height = "100vh";
 document.body.style.background = "black";
+
 document.body.style.display = "flex";
 document.body.style.justifyContent = "center";
 document.body.style.alignItems = "center";
@@ -24,7 +25,7 @@ calculator.style.width = "750px";
 calculator.style.padding = "20px";
 calculator.style.borderRadius = "20px";
 calculator.style.background = "#111";
-calculator.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.3)";
+calculator.style.boxShadow = "0 0 15px #00f260, 0 0 25px #0575e6";
 calculator.style.display = "flex";
 calculator.style.flexDirection = "column";
 calculator.style.gap = "20px";
@@ -69,8 +70,8 @@ buttonLayout.forEach(label => {
   btn.style.borderRadius = "12px";
   btn.style.cursor = "pointer";
   btn.style.color = "#fff";
-  btn.style.background = "linear-gradient(145deg, #1a1a1a, #0a0a0a)";
-  btn.style.boxShadow = "0 0 15px rgba(255,255,255,0.1)";
+  btn.style.background = "linear-gradient(145deg,rgb(19, 18, 18), #0a0a0a)";
+  btn.style.boxShadow = "0 0 15px #00f260, 0 0 25px #0575e6";
   btn.style.transition = "0.2s ease";
   btn.style.userSelect = "none";
   btn.style.outline = "none";
