@@ -22,6 +22,14 @@ A beautiful and interactive calculator built entirely with **JavaScript DOM mani
 - Flexbox & Grid
 - `eval()` for expression evaluation
 
+
+
+## 🖼️ Screenshot
+
+<img width="1246" height="785" alt="image" src="https://github.com/user-attachments/assets/c3b7b064-078e-4262-9acb-f0dc2dc83c3d" />
+
+
+
   🌐 Live Demo
    https://manishapabolta.github.io/calculator/
 
