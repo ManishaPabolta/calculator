@@ -26,7 +26,8 @@ A beautiful and interactive calculator built entirely with **JavaScript DOM mani
 
 ## 🖼️ Screenshot
 
-<img width="1246" height="785" alt="image" src="https://github.com/user-attachments/assets/c3b7b064-078e-4262-9acb-f0dc2dc83c3d" />
+<img width="1920" height="894" alt="image" src="https://github.com/user-attachments/assets/57219951-5e4f-4090-b5bc-d00b7562e1bb" />
+
 
 
 
