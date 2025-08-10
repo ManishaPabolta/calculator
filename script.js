@@ -132,7 +132,7 @@ document.body.style.overflow = "hidden";
 // Glitter effect
 const stars = document.createElement("div");
 stars.style.position = "absolute";
-stars.style.width = "100%";
+stars.style.width = "12000px";
 stars.style.height = "100%";
 stars.style.background = "radial-gradient(white 1px, transparent 1px)";
 stars.style.backgroundSize = "10px 10px";
@@ -141,7 +141,7 @@ document.body.appendChild(stars);
 
 // Calculator container
 const calculator = document.createElement("div");
-calculator.style.width = "90vw";
+calculator.style.width = "50vh";
 calculator.style.maxWidth = "50vh";
 calculator.style.padding = "20px";
 calculator.style.borderRadius = "20px";
@@ -244,6 +244,7 @@ const buttonLayout = [
   "0", ".", "=", "≡"
 ];
 
+
 // Buttons Grid
 const buttonGrid = document.createElement("div");
 buttonGrid.style.display = "grid";
@@ -264,6 +265,8 @@ buttonLayout.forEach(label => {
   btn.style.boxShadow = "0 0 15px #00f260, 0 0 25px #0575e6";
   btn.style.transition = "0.2s ease";
   btn.style.userSelect = "none";
+  
+  
 
   if (label === "=") {
     btn.style.background = "linear-gradient(to right, #00f260, #0575e6)";
