@@ -4,6 +4,7 @@
 
 
 
+
 // Body style
 document.body.style.margin = "0";
 document.body.style.height = "100vh";
