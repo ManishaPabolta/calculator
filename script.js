@@ -303,4 +303,3 @@ function factorial(n) {
 
 // Load history
 loadHistory();
-
