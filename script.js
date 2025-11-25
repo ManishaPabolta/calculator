@@ -6,14 +6,16 @@ document.body.style.display = "flex";
 document.body.style.justifyContent = "center";
 document.body.style.alignItems = "center";
 document.body.style.fontFamily = "Arial, sans-serif";
+document.body.style.overflow = "hidden";
 
-// Glitter effect
+// Glitter stars effect
 const stars = document.createElement("div");
 stars.style.position = "absolute";
 stars.style.width = "100%";
 stars.style.height = "100%";
 stars.style.background = "radial-gradient(white 1px, transparent 1px)";
 stars.style.backgroundSize = "10px 10px";
+stars.style.zIndex = "-1";
 document.body.appendChild(stars);
 
 // Calculator container
@@ -101,6 +103,7 @@ historyIcon.addEventListener("click", () => {
     renderHistory();
 });
 
+// Render history
 function renderHistory() {
     historyContainer.innerHTML = "";
     if (historyData.length === 0) {
@@ -111,9 +114,9 @@ function renderHistory() {
         const entry = document.createElement("div");
         entry.style.padding = "4px";
         entry.style.borderBottom = "1px solid #eee";
+        entry.style.cursor = "pointer";
         const date = new Date(item.timestamp).toLocaleString();
         entry.innerHTML = `${item.expr} = <b>${item.result}</b> <small style="color:gray;">(${date})</small>`;
-        entry.style.cursor = "pointer";
         entry.addEventListener("click", () => {
             display.value = item.result;
             historyContainer.style.display = "none";
@@ -258,9 +261,3 @@ function factorial(n) {
 
 // Load history initially
 loadHistory();
-
-
-
-
-
-
